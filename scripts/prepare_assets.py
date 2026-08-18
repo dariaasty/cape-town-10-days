@@ -40,6 +40,7 @@ ASSETS = {
     "table-mountain-day.webp": DOWNLOADS / "Столовая гора.png",
     "helicopters-day.webp": DOWNLOADS / "вертолеты 2.jpg",
     "julian-dinner.webp": TELEGRAM / "IMG_8894.PNG",
+    "party-day.webp": DOWNLOADS / "тусовка первый четверг 2.jpg",
     "stay-cape-1.webp": TMP / "stay-extracted" / "Im94.jpg",
     "stay-cape-2.webp": TMP / "stay-extracted" / "Im96.jpg",
     "stay-langebaan-1.webp": TMP / "stay-extracted" / "Im104.jpg",
