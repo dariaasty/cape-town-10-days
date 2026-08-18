@@ -133,3 +133,39 @@
   .highlight h3{font-size:28px}
   .highlight p{max-width:none;margin-top:7px;font-size:15px;line-height:1.45}
 }
+
+/* Content refresh: booking rhythm and compact two-photo stay cards */
+.topbar{justify-content:flex-start}
+.section-cta{display:flex;justify-content:center;margin-top:54px}
+.button--dark{background:var(--ink);color:var(--cream)}
+.button--dark:hover{background:#fff;color:var(--ink)}
+.stay__photos{display:grid;grid-template-columns:1.15fr .85fr;gap:8px;margin-bottom:18px}
+.stay__photos img{width:100%;height:100%;min-height:180px;aspect-ratio:4/3;margin:0;object-fit:cover}
+.stay__photos img:nth-child(2){aspect-ratio:3/4}
+.stay__name{margin:8px 0 0;font-weight:800;line-height:1.35}
+.stay__description{max-width:510px;margin:10px 0 0!important;padding-top:10px;border-top:1px solid rgba(18,63,58,.2);font-size:14px!important;line-height:1.5!important}
+.highlight:nth-child(2) .highlight__image img{object-position:center 42%}
+.highlight:nth-child(4) .highlight__image img{object-position:center 70%}
+.highlight:nth-child(6) .highlight__image img{object-position:center 32%}
+.highlight:nth-child(7) .highlight__image img{object-position:center 63%}
+.highlight:nth-child(9) .highlight__image img{object-position:center 58%}
+.day:nth-child(2)>img{object-position:center top}
+
+@media(min-width:700px){
+  .stay__photos img{min-height:210px}
+}
+
+@media(min-width:1000px){
+  .section-cta{justify-content:flex-start;margin-top:64px}
+  .highlights .section-cta{max-width:1240px;margin-left:auto;margin-right:auto}
+  .stay__photos{grid-template-columns:1fr 1fr;gap:10px}
+  .stay__photos img,.stay__photos img:nth-child(2){min-height:0;aspect-ratio:4/3}
+}
+
+@media(max-width:559px){
+  .section-cta{justify-content:stretch;margin-top:44px}
+  .section-cta .button{width:100%}
+  .stay__photos{gap:6px;margin-bottom:16px}
+  .stay__photos img{min-height:140px}
+  .stay__photos img:nth-child(2){aspect-ratio:3/4}
+}
