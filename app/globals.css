@@ -76,6 +76,22 @@
 .photo-pair figcaption{display:flex;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid rgba(18,63,58,.55);font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
 .highlight__image,.day>img,.stay img,.hosts__photo{border-radius:12px;overflow:hidden}
 .highlight p,.stay p:last-child{font-size:15px;line-height:1.5}
+.intro__promise{display:grid;gap:32px;margin-top:58px;align-items:end}
+.intro__promise figure{margin:0}
+.intro__promise img{aspect-ratio:16/11;object-fit:cover;border-radius:12px}
+.intro__promise figcaption,.value__image figcaption{margin-top:10px;padding-top:10px;border-top:1px solid rgba(18,63,58,.55);font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+.intro__promise .pullquote{margin:0}
+.value{background:var(--cream)}
+.value__head{display:grid;gap:12px;margin-bottom:54px}
+.value__head h2{max-width:1120px;font-size:clamp(45px,7.7vw,104px)}
+.value__body{display:grid;gap:48px}
+.value__image{margin:0}
+.value__image img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px}
+.value__list{border-top:2px solid var(--ink)}
+.value__list article{display:grid;grid-template-columns:42px 1fr;gap:10px;padding:25px 0 28px;border-bottom:1px solid rgba(18,63,58,.34)}
+.value__list article>span{padding-top:4px;font-size:10px;font-weight:800;letter-spacing:.12em}
+.value__list h3{max-width:650px;font-size:24px;line-height:1.12;text-transform:uppercase}
+.value__list p{max-width:680px;margin:11px 0 0;font-size:15px;line-height:1.55}
 .day__copy{padding-right:8px}
 .list-card p{line-height:1.45}
 .price__small{font-size:13px;line-height:1.55}
@@ -91,6 +107,9 @@
   .intro__facts p:first-child{padding-left:0}
   .intro__facts p:last-child{padding-right:0;border-right:0}
   .photo-pair{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:64px}
+  .intro__promise{grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:42px;margin-top:64px}
+  .value__list article{grid-template-columns:58px 1fr;padding:30px 0 34px}
+  .value__list h3{font-size:28px}
 }
 
 @media(min-width:1000px){
@@ -101,6 +120,14 @@
   .photo-pair{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
   .photo-pair img,.photo-pair img:last-child{aspect-ratio:16/11}
   .pullquote{margin-top:88px}
+  .intro__promise{gap:70px}
+  .value__head{grid-template-columns:1fr 3fr;align-items:start;margin-bottom:72px}
+  .value__body{grid-template-columns:minmax(380px,.9fr) minmax(520px,1.1fr);gap:72px;align-items:start}
+  .value__image{position:sticky;top:40px}
+  .value__image img{aspect-ratio:4/5}
+  .value__list article{grid-template-columns:64px 1fr;padding:31px 0 36px}
+  .value__list h3{font-size:30px}
+  .value__list p{font-size:16px}
   .hosts__photo{border-radius:0 12px 12px 0}
   .day__copy{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(240px,1fr);column-gap:32px;align-items:start}
   .day__copy>span{grid-column:1/-1}
@@ -118,6 +145,12 @@
   .intro__grid{gap:22px}
   .intro__grid .big-copy{font-size:23px;line-height:1.32}
   .pullquote{font-size:34px;line-height:1.1}
+  .intro__promise{margin-top:46px}
+  .intro__promise img{aspect-ratio:4/3}
+  .value__head{margin-bottom:38px}
+  .value__head h2{font-size:41px;line-height:.95}
+  .value__body{gap:38px}
+  .value__image img{aspect-ratio:4/3;object-position:center center}
   .hosts{gap:30px}
   .hosts__photo{width:100%;min-height:0;aspect-ratio:4/5;border-radius:12px}
   .hosts__photo img{height:100%;min-height:0;object-position:center 38%}

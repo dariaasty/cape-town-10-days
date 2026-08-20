@@ -41,6 +41,7 @@ ASSETS = {
     "helicopters-day.webp": DOWNLOADS / "вертолеты 2.jpg",
     "julian-dinner.webp": TELEGRAM / "IMG_8894.PNG",
     "party-day.webp": DOWNLOADS / "тусовка первый четверг 2.jpg",
+    "safari-value.webp": DOWNLOADS / "сафари 4.jpg",
     "stay-cape-1.webp": TMP / "stay-extracted" / "Im94.jpg",
     "stay-cape-2.webp": TMP / "stay-extracted" / "Im96.jpg",
     "stay-langebaan-1.webp": TMP / "stay-extracted" / "Im104.jpg",
